@@ -1,14 +1,14 @@
-#Structure and Interpretation of Computer Programs
+# Structure and Interpretation of Computer Programs
 
 This contains my current working progress of reading through SICP 2nd edition. The series of [video lectures](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/) given by Harold Abelson and Gerald Sussman provided great help in understanding the material.
 
 [mit-scheme](https://www.gnu.org/software/mit-scheme/) was used to evaluate the solutions in this repository.
 In order to get an inexact decimal representation of a rational number, use the procedure `exact->inexact` e.g. `(exact->inexact (/ 1 2))`.
 
-##Course Notes
+## Course Notes
 
-##Lecture 1A - Hal Abelson
-###1.1
+## Lecture 1A - Hal Abelson
+### Section 1.1
 - To study computer science is to learn how to formalise intuitions about process
 - Declarative knowledge - *what is true*
 - Imperative knowledge - *how to*
@@ -42,5 +42,6 @@ Lecture summary:
     - Means of combination
     - Means of abstraction
 
-###1.2
+## Lecture 1B - Gerald Sussman
+### Section 1.2
 
