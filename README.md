@@ -21,7 +21,7 @@ In order to get an inexact decimal representation of a rational number, use the 
         - Computer science is an abstract form of engineering, ignoring the constraints imposed by reality
 
 A recursive definition of approximating √x using Heron's method:
-```
+```scheme
 (define (sqrt x)
     (define (average x y) 
         (/ (+ x y) 2))
