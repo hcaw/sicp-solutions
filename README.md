@@ -45,4 +45,25 @@ Lecture summary:
 
 ## Lecture 1B - Gerald Sussman
 ### Section 1.2
+- In order for a programmer to construct programs in an effective manner, he must understand the relationship between the things he writes and the behaviour of the process that he is attempting to control
+    - This lecture will establish this connection in a clear a way as possible
+- We will understand how particlar patterns of procedures and expressions, cause particular patterns of execution and behaviour from the processes
 
+- If we are to understand processes and how to control them, then we have to have a mapping from the mechanisms of our procedure into the way the processes behave
+    - We will use a formal mechanical model to understand how a machine could execute procedures (whether the machine actually does this is irrelevant)
+- Substitution model is the simplest way for understanding how procedures yield processes
+    - Evaluate the operator to get procedures
+    - Evaluate the operands to get arguments
+    - Apply the procedure to the arguments
+        - Copy the body of the procedure, substituting the arguments supplied for the formal parameters of the procedure.
+        - Evaluate the resulting new body
+
+- The key to understanding complicated things is to know what not to look at (ignore the details)
+
+Kinds of expressions
+- Numbers
+- Symbols
+- Lambda expressions
+- Definitions
+- Conditionals
+- Combinations
